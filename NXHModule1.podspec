@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name                 = 'NXHModule1'
-  s.version              = '0.1.5'
+  s.version              = '0.1.'
   s.summary              = 'try pod'
   s.homepage             = 'https://github.com/niuxinghua'
   s.license              = { :type => 'MIT', :file => 'LICENSE' }
