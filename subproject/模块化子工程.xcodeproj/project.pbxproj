@@ -14,7 +14,6 @@
 		E084A30420C4DCD9009DE2C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E084A30220C4DCD9009DE2C0 /* LaunchScreen.storyboard */; };
 		E084A30720C4DCD9009DE2C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E084A30620C4DCD9009DE2C0 /* main.m */; };
 		E084A37620C503CF009DE2C0 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = E084A37520C503CF009DE2C0 /* test.m */; };
-		E084A37920C504A4009DE2C0 /* test1.m in Sources */ = {isa = PBXBuildFile; fileRef = E084A37820C504A4009DE2C0 /* test1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +48,6 @@
 		E084A31720C4DCD9009DE2C0 /* 模块化子工程UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "模块化子工程UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E084A37420C503CF009DE2C0 /* test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = test.h; path = sourcefile/test.h; sourceTree = "<group>"; };
 		E084A37520C503CF009DE2C0 /* test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = test.m; path = sourcefile/test.m; sourceTree = "<group>"; };
-		E084A37720C504A4009DE2C0 /* test1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test1.h; sourceTree = "<group>"; };
-		E084A37820C504A4009DE2C0 /* test1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +80,6 @@
 			children = (
 				E084A37420C503CF009DE2C0 /* test.h */,
 				E084A37520C503CF009DE2C0 /* test.m */,
-				E084A37720C504A4009DE2C0 /* test1.h */,
-				E084A37820C504A4009DE2C0 /* test1.m */,
 				E084A2F620C4DCD8009DE2C0 /* 模块化子工程 */,
 				E084A2F520C4DCD8009DE2C0 /* Products */,
 			);
@@ -250,7 +245,6 @@
 				E084A37620C503CF009DE2C0 /* test.m in Sources */,
 				E084A30720C4DCD9009DE2C0 /* main.m in Sources */,
 				E084A2F920C4DCD8009DE2C0 /* AppDelegate.m in Sources */,
-				E084A37920C504A4009DE2C0 /* test1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
