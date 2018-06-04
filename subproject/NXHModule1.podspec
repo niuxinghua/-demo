@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name                 = 'NXHModule1'
-  s.version              = '0.0.8'
+  s.version              = '0.1.2'
   s.summary              = 'try pod'
   s.homepage             = 'https://github.com/niuxinghua'
   s.license              = { :type => 'MIT', :file => 'LICENSE' }
@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.platform             = :ios, '7.0'
   s.source               = { :git => 'https://github.com/niuxinghua/module-demo' }
 
-  s.source_files = 'subproject/*.*'
+  s.source_files = 'subproject/*'
 
 end
