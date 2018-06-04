@@ -13,7 +13,6 @@
 		E084A30120C4DCD9009DE2C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E084A30020C4DCD9009DE2C0 /* Assets.xcassets */; };
 		E084A30420C4DCD9009DE2C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E084A30220C4DCD9009DE2C0 /* LaunchScreen.storyboard */; };
 		E084A30720C4DCD9009DE2C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E084A30620C4DCD9009DE2C0 /* main.m */; };
-		E084A36D20C4E64D009DE2C0 /* Demo1.m in Sources */ = {isa = PBXBuildFile; fileRef = E084A36B20C4E64D009DE2C0 /* Demo1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,8 +45,6 @@
 		E084A30620C4DCD9009DE2C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E084A30C20C4DCD9009DE2C0 /* 模块化子工程Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "模块化子工程Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E084A31720C4DCD9009DE2C0 /* 模块化子工程UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "模块化子工程UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E084A36B20C4E64D009DE2C0 /* Demo1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Demo1.m; path = sourcefile/Demo1.m; sourceTree = SOURCE_ROOT; };
-		E084A36C20C4E64D009DE2C0 /* Demo1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Demo1.h; path = sourcefile/Demo1.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +93,6 @@
 		E084A2F620C4DCD8009DE2C0 /* 模块化子工程 */ = {
 			isa = PBXGroup;
 			children = (
-				E084A36C20C4E64D009DE2C0 /* Demo1.h */,
-				E084A36B20C4E64D009DE2C0 /* Demo1.m */,
 				E084A2F720C4DCD8009DE2C0 /* AppDelegate.h */,
 				E084A2F820C4DCD8009DE2C0 /* AppDelegate.m */,
 				E084A2FA20C4DCD8009DE2C0 /* ViewController.h */,
@@ -241,7 +236,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E084A36D20C4E64D009DE2C0 /* Demo1.m in Sources */,
 				E084A2FC20C4DCD8009DE2C0 /* ViewController.m in Sources */,
 				E084A30720C4DCD9009DE2C0 /* main.m in Sources */,
 				E084A2F920C4DCD8009DE2C0 /* AppDelegate.m in Sources */,
