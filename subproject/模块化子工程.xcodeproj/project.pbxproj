@@ -15,6 +15,7 @@
 		E084A30720C4DCD9009DE2C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E084A30620C4DCD9009DE2C0 /* main.m */; };
 		E084A31120C4DCD9009DE2C0 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E084A31020C4DCD9009DE2C0 /* ______Tests.m */; };
 		E084A31C20C4DCD9009DE2C0 /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E084A31B20C4DCD9009DE2C0 /* ______UITests.m */; };
+		E084A32C20C4DF67009DE2C0 /* Demo1.m in Sources */ = {isa = PBXBuildFile; fileRef = E084A32B20C4DF67009DE2C0 /* Demo1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		E084A31720C4DCD9009DE2C0 /* 模块化子工程UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "模块化子工程UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E084A31B20C4DCD9009DE2C0 /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
 		E084A31D20C4DCD9009DE2C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E084A32A20C4DF67009DE2C0 /* Demo1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo1.h; sourceTree = "<group>"; };
+		E084A32B20C4DF67009DE2C0 /* Demo1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		E084A2F620C4DCD8009DE2C0 /* 模块化子工程 */ = {
 			isa = PBXGroup;
 			children = (
+				E084A32920C4DF43009DE2C0 /* sourcefile */,
 				E084A2F720C4DCD8009DE2C0 /* AppDelegate.h */,
 				E084A2F820C4DCD8009DE2C0 /* AppDelegate.m */,
 				E084A2FA20C4DCD8009DE2C0 /* ViewController.h */,
@@ -130,6 +134,15 @@
 				E084A31D20C4DCD9009DE2C0 /* Info.plist */,
 			);
 			path = "模块化子工程UITests";
+			sourceTree = "<group>";
+		};
+		E084A32920C4DF43009DE2C0 /* sourcefile */ = {
+			isa = PBXGroup;
+			children = (
+				E084A32A20C4DF67009DE2C0 /* Demo1.h */,
+				E084A32B20C4DF67009DE2C0 /* Demo1.m */,
+			);
+			path = sourcefile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E084A32C20C4DF67009DE2C0 /* Demo1.m in Sources */,
 				E084A2FC20C4DCD8009DE2C0 /* ViewController.m in Sources */,
 				E084A30720C4DCD9009DE2C0 /* main.m in Sources */,
 				E084A2F920C4DCD8009DE2C0 /* AppDelegate.m in Sources */,
